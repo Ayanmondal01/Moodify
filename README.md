@@ -27,7 +27,8 @@
 ## ✨ Features
 
 - **Real-Time Facial Emotion Recognition**: Uses `@mediapipe/tasks-vision` to accurately capture and analyze user facial expressions to determine their current mood.
-- **Smart Music Recommendations**: Dynamically fetches and plays songs tailored to the detected mood via the backend API.
+- **Smart Music Recommendations**: Dynamically fetches and plays categorized songs tailored perfectly to four distinct emotional states (**Happy**, **Surprised**, **Sad**, and **Neutral**) via the backend API.
+- **Self-Hosted Music Library**: Comes packed with an initial catalog of 100 songs mapped to various moods. Users can also seamlessly upload and manage their own custom mp3 files directly through the app.
 - **Secure Authentication**: Robust user registration, login, and protected routes utilizing JWT (JSON Web Tokens) and bcrypt.
 - **Modern UI/UX**: Built with React and styled with SCSS, featuring dynamic styling, smooth animations, and a responsive design.
 - **Media Management**: Secure and efficient image/audio uploads and storage using ImageKit and node-id3 for MP3 metadata.
@@ -132,7 +133,7 @@ Navigate to `http://localhost:5173` in your browser. Grant webcam permissions wh
 
 ## 🛣 Roadmap
 
-- [ ] Integrate Spotify/Apple Music API for an infinite library of songs.
+- [ ] Provide more granular controls for admins over the self-hosted 100+ song library.
 - [ ] Add historical mood tracking with intuitive chart visualizations for users.
 - [ ] Support custom playlist generation and saving.
 - [ ] Add social sharing features to share moods and tracks with friends.
